@@ -6,6 +6,9 @@ authors = ["Your Name <you@example.com>"]
 license = "MIT"
 readme = "README.md"
 
+[tool.poetry.scripts]
+foo = "eidolon_ai_sdk.bin.agent_http_server:main"
+
 [tool.poetry.dependencies]
 python = ">=3.10,<3.13"
 eidolon-ai-sdk = "^0.1.127"
