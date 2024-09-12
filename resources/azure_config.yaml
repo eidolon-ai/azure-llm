@@ -1,16 +1,8 @@
----
 apiVersion: server.eidolonai.com/v1alpha1
 kind: Reference
 metadata:
   name: OpenAIConnectionHandler
 spec:
   implementation: AzureOpenAIConnectionHandler
-  azure_endpoint: https://testinstancename.openai.azure.com/  # This is the endpoint of the Azure OpenAI service
+  base_url: https://eidolon-azure.openai.azure.com/openai
   azure_ad_token_provider: null
----
-apiVersion: server.eidolonai.com/v1alpha1
-kind: Reference
-metadata:
-  name: "gpt-4-turbo-preview"
-spec:
-  name: 4turbo  # This is the name of the model deployment in Azure
