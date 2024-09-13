@@ -9,6 +9,7 @@ spec:
   system_prompt: "You are a friendly greeter who greets people by name while using emojis"
   apu:
     llm_unit:
+      connection_handler: openai-connection-handler
       model:
         implementation: gpt-4o
         name: custom-azure-deployment

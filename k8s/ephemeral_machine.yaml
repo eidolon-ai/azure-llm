@@ -15,3 +15,8 @@ spec:
   # The symbolic memory implementation to use for the machine. In this case, we are using the `LocalSymbolicMemory` implementation.
   # WARNING: This is ephemeral memory and will be lost when the machine is deleted or restarted.
   symbolic_memory: LocalSymbolicMemory
+  similarity_memory:
+    embedder:
+      implementation: OpenAIEmbedding
+      connection_handler: openai-connection-handler
+      model: custom-azure-embedder

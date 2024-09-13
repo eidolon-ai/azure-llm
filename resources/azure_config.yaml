@@ -1,7 +1,7 @@
 apiVersion: server.eidolonai.com/v1alpha1
 kind: Reference
 metadata:
-  name: OpenAIConnectionHandler
+  name: openai-connection-handler
 spec:
   implementation: AzureOpenAIConnectionHandler
   base_url: https://eidolon-azure.openai.azure.com/openai
