@@ -1413,13 +1413,13 @@ gmpy2 = ["gmpy2"]
 
 [[package]]
 name = "eidolon-ai-client"
-version = "0.1.35"
+version = "0.1.36"
 description = "Eidolon python client and CLI"
 optional = false
 python-versions = "<3.13,>=3.8"
 files = [
-    {file = "eidolon_ai_client-0.1.35-py3-none-any.whl", hash = "sha256:f7256507cccb59d0d8bee7db3b7a6856bfd9bbfb2aa1a9c51bc5968d05d55528"},
-    {file = "eidolon_ai_client-0.1.35.tar.gz", hash = "sha256:faf41764f2a719c3fa5a492ad0202f80423d02bba8a520876a19b6201e5726d1"},
+    {file = "eidolon_ai_client-0.1.36-py3-none-any.whl", hash = "sha256:e18070ffbebc9295585b72208c0e9e9d9c2198d528efc0c336912887410c035a"},
+    {file = "eidolon_ai_client-0.1.36.tar.gz", hash = "sha256:43e61817976543e339016b311c514e55e30481639296ab0cd208475928837271"},
 ]
 
 [package.dependencies]
@@ -1452,13 +1452,13 @@ pydantic = ">=2.5.2,<3.0.0"
 
 [[package]]
 name = "eidolon-ai-sdk"
-version = "0.1.129"
+version = "0.1.137"
 description = "An open source sgent service SDK"
 optional = false
 python-versions = "<3.13,>=3.10"
 files = [
-    {file = "eidolon_ai_sdk-0.1.129-py3-none-any.whl", hash = "sha256:a451a647a1ee40b61f2291e8a8a975fef15f363d41dee573d9b04a0de0921a17"},
-    {file = "eidolon_ai_sdk-0.1.129.tar.gz", hash = "sha256:0aa8d966a3701b872b06c967862f0f8f36221e8fa821010e0c0248a16c6ed6fa"},
+    {file = "eidolon_ai_sdk-0.1.137-py3-none-any.whl", hash = "sha256:8b5787ad6226a634cc59adaac382ef0b4c5e8696685ffe9bfc65d8046fef874e"},
+    {file = "eidolon_ai_sdk-0.1.137.tar.gz", hash = "sha256:32f23b77e0cd6080d1c2dad7e96d68e30f685d0a3fe75128e03600a2cd2cdda9"},
 ]
 
 [package.dependencies]
@@ -1472,7 +1472,7 @@ boto3 = ">=1.34.74,<2.0.0"
 boto3-stubs = {version = ">=1.34.74,<2.0.0", extras = ["essential"]}
 chromadb = ">=0.4.18"
 dill = ">=0.3.8,<0.4.0"
-eidolon-ai-client = ">=0.1.35,<0.2.0"
+eidolon-ai-client = ">=0.1.36,<0.2.0"
 eidolon-ai-mistralai = ">=0.1.6a,<0.2.0"
 eidolon-ai-usage-client = ">=0.1.10,<0.2.0"
 esprima = ">=4.0.1,<5.0.0"
@@ -6139,4 +6139,4 @@ type = ["pytest-mypy"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.10,<3.13"
-content-hash = "5588fee6a8575cb55d1bc45506f1a34804a7c0559edc21f91208117513ea49c4"
+content-hash = "b205903e26411e886776bd4e731f02b51da4f1111a96e3413c289aee0fcfc520"
