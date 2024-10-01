@@ -1,0 +1,22 @@
+---
+apiVersion: server.eidolonai.com/v1alpha1
+kind: Agent
+metadata:
+  name: hello-world
+
+spec:
+  implementation: SimpleAgent
+  apu:
+    implementation: azure-gpt4o
+---
+apiVersion: server.eidolonai.com/v1alpha1
+kind: Reference
+metadata:
+  name: azure-gpt4o
+
+spec:
+  implementation: GPT4o
+  llm_unit:
+    azure_endpoint: https://eidolon-azure.openai.azure.com
+    model:
+      name: custom-azure-deployment
