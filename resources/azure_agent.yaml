@@ -17,6 +17,7 @@ metadata:
 spec:
   implementation: GPT4o
   llm_unit:
+    implementation: "AzureLLMUnit"
     azure_endpoint: https://eidolon-azure.openai.azure.com
     model:
       name: custom-azure-deployment
