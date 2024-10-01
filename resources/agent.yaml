@@ -1,0 +1,9 @@
+apiVersion: server.eidolonai.com/v1alpha1
+kind: Agent
+metadata:
+  name: hello-world
+
+spec:
+  implementation: SimpleAgent
+  apu:
+    implementation: azure-gpt4o  # points to your apu resource

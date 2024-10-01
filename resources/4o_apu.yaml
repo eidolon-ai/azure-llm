@@ -1,0 +1,12 @@
+apiVersion: server.eidolonai.com/v1alpha1
+kind: Reference
+metadata:
+  name: azure-gpt4o
+
+spec:
+  implementation: GPT4o
+  llm_unit:
+    implementation: "AzureLLMUnit"
+    azure_endpoint: https://eidolon-azure.openai.azure.com  # resource azure endpoint
+    model:
+      name: custom-azure-deployment  # your custom deployment name
