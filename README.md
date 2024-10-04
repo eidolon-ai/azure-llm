@@ -10,8 +10,8 @@ This repository contains the configuration for the Azure LLM services.
 3. Deploy a model by creating a [deployment](https://ai.azure.com/resource/deployments) for your resource a model named (in this demo we used `custom-azure-deployment`).
 4. Update the `model` field in `hello_world_agent.yaml` to use your deployment name.
 
-```bash filename=resources/4o_apu.yaml
-# resources/4o_apu.yaml
+```bash filename=resources/azure_4o_apu.yaml
+# resources/azure_4o_apu.yaml
 apiVersion: server.eidolonai.com/v1alpha1
 kind: Reference
 metadata:
@@ -29,8 +29,8 @@ spec:
 <details>
 <summary>The example agent already points to this apu.</summary>
 
-```yaml filename=resources/agent.yaml
-# resources/agent.yaml
+```yaml filename=resources/azure_agent.yaml
+# resources/azure_agent.yaml
 apiVersion: server.eidolonai.com/v1alpha1
 kind: Agent
 metadata:
