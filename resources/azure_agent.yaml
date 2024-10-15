@@ -7,3 +7,4 @@ spec:
   implementation: SimpleAgent
   apu:
     implementation: azure-gpt4o  # points to your apu resource
+  title_generation_mode: auto
