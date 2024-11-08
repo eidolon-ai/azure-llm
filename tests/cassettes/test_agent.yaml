@@ -123,7 +123,7 @@ interactions:
       accept-encoding:
       - gzip, deflate
       api-key:
-      - b7263e1633844bbfb1825c868a5d856f
+      - '*****'
       authorization:
       - '*****'
       connection:
@@ -695,7 +695,7 @@ interactions:
       accept-encoding:
       - gzip, deflate
       api-key:
-      - b7263e1633844bbfb1825c868a5d856f
+      - '*****'
       authorization:
       - '*****'
       connection:
